@@ -10,7 +10,7 @@ setInterval(() => {
         Arch: arch(),
         totalRAM: `${parseInt(tRam) } MB`,
         freeRAM: `${parseInt(fRam) } MB`,
-        usage: `${parseInt(usage).toFixed(2)}% MB livres`
+        usage: `${parseInt(usage).toFixed(2)}% livres`
     }
     console.clear();
     console.table(stats);
